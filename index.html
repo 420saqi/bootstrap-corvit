@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <!-- navbar -->
+
+    <nav class="navbar navbar-height navbar-expand-lg fw-bolder"
+        style="font-size: 18px; height: 80px; background-color: #3f8a3a">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-4 my-1" href="#" style="width: 20%;"><img style="height: 55px; min-width: 100px;"
+                    src="img/logo.png" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu items  -->                     <!-- responsive -->
+            <!-- Menu items  -->
+            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto text-center mb-2 mb-lg-0" style="width: 80%; justify-content: center;">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active text-white" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active text-white" aria-current="page" href="#">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active text-white" aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active text-white" aria-current="page" href="#">DELIVERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active text-white" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-icon me-3" role="search">
+                    <button class="btn m-autor" type="submit" style="width: 130px;">
+                        <img src="img/search.png" class="img-fluid me-5" style="height: 35px;">
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->                                  <!-- responsive -->
+    <!-- banner -->
+
+    <div class="container-fluid">
+        <div class="row bg-gradient-banner" style="height: 85vh;">
+
+            <!-- column 1 -->
+            <div class="col-sm-12 col-md-6 banner-col-text px-5">
+                <div class="h1 custom-font text-center ms-1">
+                    Indonesian Cuisine</div>
+
+                <div class="h1 custom-font text-center m-0 pb-3">
+                    Restaurant</div>
+
+                <div class="p mb-5 ps-5 fs-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                    illum
+                    dolor? Sed iusto sapiente rerum!</div>
+
+                <div class="btn btn-warning ms-5" style="width: 170px; border-radius: 20px;">BOOK NOW!</div>
+            </div>
+
+            <!-- column 2 -->
+            <div class="col-6 bg-pattern d-flex align-items-center">
+                <div class="row">
+                    <div class="col-12 d-none d-md-block d-lg-block d-xl-block">
+                        <img src="img/header.png" style="height: 420px;" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about our food -->                          <!-- responsive -->
+    <!-- about our food -->
+
+    <div class="container-fluid">
+        <div class="row bg-gradient-about d-flex" style="height: 80vh; align-items: center;">
+            <div class="col-1">
+            </div>
+            <div class="col-11 about-us">
+
+                <div class="row">
+
+                    <!-- col 1 -->
+                    <div class="col-5">
+                        <img src="img/aboutOurFood.png" class="img-fluid about-us-img">
+                    </div>
+
+                    <!-- col2 -->
+                    <div class="col d-none d-md-block"></div>
+
+                    <!-- col 3 -->
+                    <div class="col-5 col-sm-6 about-heading">
+                        <div class="h1 text-success custom-font" style="font-size: 45px;">About Our Food</div>
+                        <div class="h4 text-success">No. 1 Restaurant in Indonesia</div>
+                        <div class="p fs-5 text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolorum etis aperiam voluptatum error odit ab facere vitae eligendi, nihil pariatur eos!
+                            Autem.</div>
+                        <div class="btn btn-white bg-white rounded-5 mt-4" style="width: 170px;">Read More</div>
+                    </div>
+
+                    <!-- col 4 -->
+                    <div class="col d-none d-md-block"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- why us -->
+    <!-- why us -->                                 <!-- responsive -->
+
+    <div class="container-fluid">
+        <div
+            class="row py-5 px-4 why-us-container flex-column d-sm-flex flex-md-row justify-content-md-around flex-sm-column justify-content-sm-center ">
+            <div class="col why-us">
+                <img src="img/star.png" class="img-fluid" width="220vw">
+                <h3 class="text-center">Fast Delivery</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolor dolore
+                    laudantium adipisci ipsa quod!</p>
+            </div>
+            <div class="col why-us">
+                <img src="img/star.png" class="img-fluid" width="220vw">
+                <h3 class="text-center">Professional Chefs</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolor dolore
+                    laudantium adipisci ipsa quod!</p>
+            </div>
+            <div class="col why-us">
+                <img src="img/star.png" class="img-fluid" width="220vw">
+                <h3 class="text-center">Rich of Taste</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolor dolore
+                    laudantium adipisci ipsa quod!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- our chefs -->                              <!-- responsive -->
+    <!-- our chefs -->
+
+    <div class="container-fluid chef-bg">
+        <div class="row">
+            <div class="chef-bg-pattern">
+                <div class="h1 text-center mt-5 mb-0 text-white custom-font" style="font-size: 53px;">Meet Our Chefs
+                </div>
+                <div class="p text-center fs-4 text-white">They Are Nice & Friendly</div>
+            </div>
+
+            <div class="col-12 chef-row mt-5">
+                <div class="row d-flex flex-column flex-md-row">
+
+                    <!-- chef 1 -->
+                    <div class="col chef d-flex align-items-center justify-content-sm-center">
+                        <img src="img/chefs/1 (1).png" class="img-fluid w-100 chef-img">
+
+                        <!-- chef text -->
+                        <div class="chef-1-text px-3 w-100 pb-5 pb-md-0 mb-lg-4 mb-md-0 mb-sm-0 chef-text">
+                            <div class="h4 text-center  fs-2 fs-md-5 fs-lg-3 fs-xl-1 text-white">Adwin Bae</div>
+                            <div class="p text-center text-white fs-5">Executive Chef</div>
+                        </div>
+                    </div>
+                    <!-- // checking -->
+
+                    <!-- chef 2 -->
+                    <div class="col chef d-flex align-items-center justify-content-sm-center">
+                        <img src="img/chefs/2.png" class="img-fluid w-100 chef-img">
+                        <div class="chef-2-text pb-5 pb-md-0  px-3 w-100 mb-lg-4 mb-md-0 mb-sm-0 chef-text">
+                            <div class="h4 text-center fs-2 fs-md-5 fs-lg-3 fs-xl-1 text-white">Renata June</div>
+                            
+                            <div class="p text-center p-0 text-white fs-5"><span class="d-none d-lg-inline">Restaurant </span>General Manager</div>
+                        </div>
+                    </div>
+
+                    <!-- chef 3 -->
+                    <div class="col chef d-flex align-items-center justify-content-sm-center">
+                        <img src="img/chefs/3.png" class="img-fluid w-100 chef-img">
+                        <div class="chef-3-text pb-5 pb-md-0  w-100 px-3 mb-lg-4 mb-md-0 mb-sm-0 chef-text">
+                            <div class="h4 text-center fs-2 fs-md-5 fs-lg-3 fs-xl-1 text-white">David Adi</div>
+                            <div class="p text-center text-white fs-5">Sambai Specialist</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p fs-4 text-white text-center mt-5 w-75 m-auto">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.Adipisci exercitationem impedit assumenda delectus neque. <span
+                    class="d-none d-lg-inline"> Sed, alias unde fugit facilis accusantiumratione ut veritatis quas hic
+                    asperiores laborum vel. Id debitis accusantium minus ad esse.</span>
+            </div>
+            <div class="chef-footer mt-2">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- established date -->
+    <!-- established date -->
+    <div class="container-fluid established">
+
+        <div class="row established-pattern">
+
+            <div class="col-1 d-none d-md-block"></div>
+            <div class="col established-col-1">
+                <img src="img/foodMaking.png" class="img-fluid">
+            </div>
+
+            <div class="col established-col-2">
+                <div class="h1 fs-2 text-white ms-4">We've been Making The Delicious Food Since 1987</div>
+                <div class="p ms-4 mt-4 fs-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    totam,
+                    voluptatum quam inventore cupiditate vitae saepe beau.</div>
+                <div class="btn ms-4 mt-5 fs-4 btn-light rounded-5" style="width: 180px; align-self: self-start;">Read
+                    more
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <!-- testinomials -->
+    <!-- testinomials -->
+
+    <div class="container-fluid testinomial-container">
+        <div class="testinomial">
+
+            <div class="h1 text-center mb-4 custom-font" style="font-size: 65px;">Testinomial</div>
+            <div class="p fs-4 text-center mb-3">"o iste nemo, facere molestias nisi neque quis quo, officiis
+                perspiciatis vitae. Iusto quos repellendus praesentium consectetur fugit ab adipisci, facere deleniti ex
+                at dolores"</div>
+            <div class="p fs-3 text-center">Robert Purnomo</div>
+            <div class="radio-imgs mt-3">
+                <img src="img/radio.svg" class="img-fluid">
+                <img src="img/radio-2.svg" class="img-fluid img-center">
+                <img src="img/radio.svg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- our menu -->
+    <!-- our menu -->
+
+    
+    <div class="cotainer-fluid container-menu pt-5">
+
+        <!-- row 1 -->
+        <!-- menu heading -->
+        <div class="row menu-row-pattern">
+            <div class="menu-row-1">
+                <div class="menu-heading">
+                    <div class="h1 pb-2" style="font-size:4em;">Our Menus</div>
+                    <div class="h3 fs-4 pt-2">Indonesian Cuise Restaurant</div>
+                    <div class="p text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+                        corrupti animi
+                        voluptatem libero. Odit tenetur eum quod asperiores in, cupiditate laudantium odio tempore
+                        suscipit quaerat nemo? Quia ullam provident magnam harum laborum quas facere.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- row 2 -->
+
+        <div class="row menu-row-pattern">
+            <div class="menu-row-2">
+                <div class="col-12 complete-menu">
+
+                    <!-- menu row 1 -->
+                    <div class="row menu-item-list">
+                        <!-- item 1 -->
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/1.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Nasi Lemak</div>
+                                    <div class="h1">$5</div>
+                                    <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/2.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Nasi Uduk</div>
+                                    <div class="h1">$7</div>
+                                    <div class="p">Lorem ipsum dolor sit amet conset. Voluptatum,
+                                        explicabo!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu row 2 -->
+                    <div class="row menu-item-list">
+                        <!-- item 1 -->
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/3.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Bukso Bowl</div>
+                                    <div class="h1">$5</div>
+                                    <div class="p">Lorem ipsum d adipisicing elit. Voluptatum,
+                                        explicabo!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/4.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Bukso Bowl</div>
+                                    <div class="h1">$4</div>
+                                    <div class="p">Lorem ipsum do adipisicing elit. Voluptatum,
+                                        explicabo!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu row 3 -->
+                    <div class="row menu-item-list">
+                        <!-- item 1 -->
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/5.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Mi Cabe Hijau</div>
+                                    <div class="h1">$6</div>
+                                    <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                                </div>
+                            </div>
+                            <!-- item 2 -->
+                        </div>
+                        <div class="col-6">
+                            <div class="row menu-alignment">
+                                <div class="col-6">
+                                    <img src="img/menu/6.png" class="img-fluid">
+                                </div>
+                                <div class="col-6">
+                                    <div class="h2">Mi Goreng Aceh</div>
+                                    <div class="h1">$9</div>
+                                    <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu-radio-imgs -->
+                    <div class="row">
+                        <div class="menu-radio-imgs mt-3">
+                            <img src="img/radio.svg" class="img-fluid">
+                            <img src="img/radio.svg" class="img-fluid">
+                            <img src="img/radio-2.svg" class="img-fluid img-center">
+                            <img src="img/radio.svg" class="img-fluid">
+                            <img src="img/radio.svg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- subscribe us -->
+
+    <div class="container-fluid subscribe-container">
+        <div class="row subscribe-row">
+            <div class="h1 custom-font" style="font-size: 50px;">Subsribe And<br> Follow Us</div>
+            <div class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore explicabo magnam ea
+                molestias, illo libero, amet ut laudantium ducimus excepturi deleniti illum similique minus dolor
+                architecto corporis accusantium quidem nam eveniet molestiae? Suscipit magni accusantium non itaque!
+                Commodi non dignissimos iure necessitatibus incidunt minus odit ullam ducimus accusamus voluptatum!
+            </div>
+
+            <!-- email and subscribe -->
+            <div class="form">
+                <input type="email" class="form-control email rounded-5 mt-5 w-50" id="exampleFormControlInput1" style="min-width: 60vw;" placeholder="Email">
+                <div class="subscribe-btn btn text-white btn-lg rounded-5 w-50 text-center mt-4 fw-bolder"
+                    style="background-color: rgba(30, 91, 31, 0.895); min-width: 60vw;">Subscribe</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid footer-container">
+        <div class="row mt-5">
+            <div class="col-5">
+                <div class="h2 custom-font">Indonesian Cuisine</div>
+                <div class="p mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi expedita
+                    diccusandae labore! Aliquid saepe tempora voluptate architecto!</div>
+                <div class="footer-logo mt-4">
+                    <img src="img/insta.svg" class="img-fluid">
+                    <img src="img/fb.svg" class="img-fluid">
+                    <img src="img/twitter.svg" class="img-fluid">
+                    <img src="img/whatsapp.svg" class="img-fluid">
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="h2 custom-font">About</div>
+                <div class="p footer-text">History</div>
+                <div class="p footer-text">Our food</div>
+                <div class="p footer-text">Forum</div>
+                <div class="p footer-text">Timetable</div>
+                <div class="p footer-text">Privacy Policy</div>
+            </div>
+            <div class="col">
+                <div class="h2 custom-font">Services</div>
+                <div class="p footer-text">How to Book</div>
+                <div class="p footer-text">Our Chef</div>
+                <div class="p footer-text">Forum</div>
+                <div class="p footer-text">Delivery</div>
+                <div class="p footer-text">Payment Method</div>
+            </div>
+            <div class="col">
+                <div class="h2 custom-font">Other</div>
+                <div class="p footer-text">Contact Us</div>
+                <div class="p footer-text">Help</div>
+                <div class="p footer-text">Privacy</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

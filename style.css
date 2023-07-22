@@ -1,0 +1,278 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url('BerkshireSwash-Regular.ttf');
+    font-family: custom-font;
+}
+.custom-font{
+    font-family: custom-font;
+}
+
+.search-icon{
+    filter: invert(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* banner */    /* banner */    /* banner */    /* banner */    /* banner */ 
+/* banner */    /* banner */    /* banner */    /* banner */    /* banner */ 
+
+.banner-col-text{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-pattern{
+    background-image:url('img/backgroundPattern.png');
+}
+
+/* about us */  /* about us */  /* about us */  /* about us */  /* about us */  
+/* about us */  /* about us */  /* about us */  /* about us */  /* about us */  
+
+.about-us{
+    border-radius: 257px 0px 0px 245px;
+    background-color: rgb(255, 217, 0);
+    height: 55vh;
+}
+.bg-gradient-banner{
+    background: linear-gradient(to top right,rgba(30, 91, 31, 0.895), rgba(0, 167, 14, 0.636));
+}
+.bg-gradient-about{
+    background: linear-gradient(to right,rgba(25, 111, 33, 0.795), rgba(18, 141, 28, 0.836));
+}
+
+.about-us-img{
+    border-radius: 50%;
+    height: 55vh;
+    box-shadow: -25px 25px 60px rgb(0, 0, 0);
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* why us starts */ /* why us starts */ /* why us starts */ /* why us starts */
+/* why us starts */ /* why us starts */ /* why us starts */ /* why us starts */
+
+.why-us-container{
+    background-color: rgba(19, 90, 19, 0.799);
+}
+.why-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px 40px;
+}
+
+/* Our chefs */     /* Our chefs */  /* Our chefs */     /* Our chefs */
+/* Our chefs */     /* Our chefs */  /* Our chefs */     /* Our chefs */
+
+.chef-bg{
+    background: linear-gradient(to top,rgba(30, 130, 33, 0.795), rgba(30, 137, 14, 0.536));
+}
+.chef-bg-pattern{
+    background-image: url('img/PattrenChef.png');
+    background-repeat: no-repeat;
+}
+.chef-row{
+    background-size: contain;
+    /* height: 70vh; */
+    margin: auto;
+    width: 100vw;
+    padding-left: 30px;
+}
+.chef{
+    position: relative;
+}
+/* .chef-1-text{
+    position: absolute;
+    left: 9vw;
+    bottom: 2vh;
+}
+
+.chef-2-text{
+    position: absolute;
+    left: 5vw;
+    bottom: 2vh;
+}
+
+.chef-3-text{
+    position: absolute;
+    left: 9vw;
+    bottom: 2vh;
+} */
+
+.chef-text{
+    position: absolute;
+    /* margin: 0px 5px; */
+    bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+.chef-img{
+    width: 30vw;
+}
+.chef-footer{
+    background-image: url('img/PattrenChef2.png');
+    height: 13vh;
+    background-size: contain;
+}
+
+.established{
+    height: 80vh;
+    background-color: rgb(228, 158, 18);
+}
+.established-pattern{
+    background-image: url('img/PattrenOrange.png');
+    background-size: cover;
+}
+.established-col-1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.established-col-2{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* testinomial */       /* testinomial */       /* testinomial */
+/* testinomial */       /* testinomial */       /* testinomial */
+
+.testinomial-container{
+    background-color: rgba(30, 131, 51, 0.895);
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testinomial{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 10px;
+    color: white;
+
+}
+.radio-imgs img{
+    width: 3vw;
+    filter: invert(100%);
+    padding: 5px;
+}
+.radio-imgs .img-center{
+    width: 4vw;
+}
+
+.menu-row-pattern{
+    background-image: url('img/PattrenOurMenus.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container-menu{
+    height: 175vh;
+    background: linear-gradient(to top right,rgba(30, 91, 31, 0.895), rgba(0, 167, 14, 0.636));
+}
+.menu-row-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 228, 0);
+    margin-top: 60px;
+}
+.menu-heading{
+    color: green;
+    width: 70vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-row-2{
+    height: 30vh;
+}
+.complete-menu{
+    margin-top: 100px;
+}
+.menu-item-list{
+    color: white;
+    margin: 30px 30px;
+    
+}
+.menu-alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-radio-imgs{
+    width: 100vw;
+    filter: invert(100%);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-radio-imgs img{
+    height: 3vh;
+    margin: 0px 10px;
+}
+.menu-radio-imgs .img-center{
+    height: 4vh;
+}
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.subscribe-row{
+    color: green;
+    text-align: center;
+    width: 70vw;
+}
+.email{
+    border: 2px solid green;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.footer-container{
+    background-color: rgba(30, 91, 31, 0.895);
+    color: white;
+    padding: 50px 50px 100px 50px;
+}
+.footer-logo img{
+    width: 3vw;
+    margin: 0px 5px;
+    border-radius: 10%;
+    filter: invert(100%);
+}
+
+.footer-text{
+    padding: 5px 0px;
+    font-size: 18px;
+}
